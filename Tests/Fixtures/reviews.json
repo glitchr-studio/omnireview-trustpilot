@@ -1,0 +1,3 @@
+{"links": [], "reviews": [
+  {"id": "507f191e810c19729de860ea", "stars": 5, "title": "Parfait", "text": "Livraison rapide, produit conforme.", "language": "fr", "createdAt": "2026-09-30T12:00:00Z", "updatedAt": "2026-09-30T12:00:00Z", "isVerified": true, "consumer": {"displayLocation": "Paris, FR", "displayName": "Camille R.", "id": "6a1"}, "companyReply": {"text": "Merci Camille !", "createdAt": "2026-10-01T08:00:00Z"}, "links": [{"href": "https://api.trustpilot.com/v1/reviews/507f191e810c19729de860ea", "method": "GET", "rel": "reviews"}]}
+]}

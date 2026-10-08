@@ -1,0 +1,43 @@
+{
+    "name": "omnireview/trustpilot",
+    "type": "library",
+    "description": "Omnireview Trustpilot: a business unit's TrustScore and reviews, the links to its profile and to review it, replying and inviting customers with the business user's token; Trustpilot's 24-hour refresh declared.",
+    "keywords": [
+        "reviews",
+        "trustpilot",
+        "trustscore",
+        "omnireview"
+    ],
+    "homepage": "https://github.com/glitchr-studio/omnireview-trustpilot",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Marco Meyer",
+            "email": "marco.meyer@glitchr.io"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "glitchr/omnireview": "^1.0@dev",
+        "symfony/http-client": "^6.4|^7.0|^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Omnireview\\Trustpilot\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Omnireview\\Trustpilot\\Tests\\": "Tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
